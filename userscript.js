@@ -23,7 +23,7 @@ setTimeout(() => {
     plane.addParts([
         { name: "wingL2", model: GLB_URL, position: [-spacing * 2, 5, 0], rotation: [0, 0, 0], scale: [1, 1, 1] },
         { name: "wingL1", model: GLB_URL, position: [-spacing, 5, 0], rotation: [0, 0, 0], scale: [1, 1, 1] },
-        { name: "center", model: GLB_URL, position: [0, 5, 0], rotation: [0, 0, 0], scale: [1, 1, 1] },
+        { name: "center", model: GLB_URL, position: [0, 5, 0], rotation: [0, 0, 0], scale: [0, 0, 0] },
         { name: "wingR1", model: GLB_URL, position: [spacing, 5, 0], rotation: [0, 0, 0], scale: [1, 1, 1] },
         { name: "wingR2", model: GLB_URL, position: [spacing * 2, 5, 0], rotation: [0, 0, 0], scale: [1, 1, 1] }
     ]);
