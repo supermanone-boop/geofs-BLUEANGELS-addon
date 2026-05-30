@@ -13,7 +13,7 @@ setTimeout(() => {
         plane.parts.root.object3d.visible = false;
     }
 
-    const GLB_URL = "https://raw.githubusercontent.com/supermanone-boop/models/main/F18.glb";
+    const GLB_URL = "https://www.geo-fs.com/models/objects/aircraft/premium/fa18/fa18.glb";
 
     const spacing = 20;
 
